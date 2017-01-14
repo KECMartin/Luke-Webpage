@@ -1,0 +1,62 @@
+h1{
+	margin-top: -40px;
+}
+
+body{
+	font-family: sans-serif;
+	padding-top: 70px;
+	
+}
+
+#contactInfo{
+	font-size: 120%;
+}
+
+.button {
+  display: block;
+  padding: 15px 25px;
+  font-size: 24px;
+  cursor: pointer;
+  text-align: center;
+  margin: 0 auto;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: #0066cc;
+  border: none;
+  border-radius: 15px;
+  width: 75%;
+
+}
+
+.button:hover {background-color: #3399ff}
+
+.button:active {
+  background-color: #3399ff;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+.dropdown-menu{
+	width: 70%;
+	left: 15% !important;
+	
+}
+
+#chapters{
+	padding: 2px;
+	display: block;
+}
+@media only screen and (min-width: 768px){
+	#mySideNav{
+		width: 230px;
+		background: #dddddd;
+		padding-top: 20px;
+		display: block;
+		margin-top: -20px;
+		overflow: hidden;
+		padding-bottom: 100%;
+		border-right: 5px solid black;
+	}
+
+	}
