@@ -52,7 +52,8 @@ body{
 		width: 230px;
 		background: #dddddd;
 		padding-top: 20px;
-		display: block;
+		display: inline-block;
+		float: left;
 		margin-top: -20px;
 		overflow: hidden;
 		padding-bottom: 100%;
@@ -60,3 +61,28 @@ body{
 	}
 
 	}
+
+.right{
+	display: inline-block;
+	float: left;
+	padding-left: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
