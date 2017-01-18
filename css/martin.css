@@ -59,15 +59,20 @@ body{
 		padding-bottom: 100%;
 		border-right: 5px solid black;
 	}
-
-	}
-
-.right{
-	display: inline-block;
-	float: left;
-	padding-left: 20px;
 }
 
+	}
+@media only screen and (min-width: 768px){
+	.right{
+		display: inline-block;
+		float: left;
+		padding-left: 20px;
+	}
+}
+
+#pdfHere{
+	text-align: center;
+}
 
 
 
