@@ -81,7 +81,7 @@ body{
 		border-right: 5px solid black;
 	}
 }
-#geometryCalendarJanuary{
+.right{
 	padding-top: 40px;
 	width: 100%;
 	display: block;
@@ -186,8 +186,8 @@ header{
 
 	.right{
 		display: inline-block;
+		padding-right: 0px;
 		width: 70%;
-
 	}
 
 
@@ -199,12 +199,6 @@ header{
 		height: 200px;
 	}
 }
-
-
-
-
-
-
 
 
 
